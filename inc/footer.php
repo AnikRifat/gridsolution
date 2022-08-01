@@ -119,7 +119,7 @@
      </div>
  </div>
  <!--------------------------------copyright-ends----------------------------------------->
- <div id="request_free"><a href="request/index.html"><img src="assets/images/request-free.png" alt="Request Free Audit" title="Request Free Audit" width="46" height="200"></a></div>
+
  </div>
  <!----------------------------Modal-box-portfolio-------------------------------------------------->
  <div id="myModal" class="modal fade">
@@ -150,24 +150,25 @@
 
  </script>
  <script type="text/javascript">
+     // When the user scrolls the page, execute myFunction
+     window.onscroll = function() {
+         myFunction()
+     };
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+     // Get the navbar
+     var navbar = document.getElementById("navbar");
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+     // Get the offset position of the navbar
+     var sticky = navbar.offsetTop;
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+     // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+     function myFunction() {
+         if (window.pageYOffset >= sticky) {
+             navbar.classList.add("sticky")
+         } else {
+             navbar.classList.remove("sticky");
+         }
+     }
 
      $(document).ready(function() {
 

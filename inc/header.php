@@ -29,10 +29,10 @@
             <div class="container">
                 <div class="top-item">
                     <div class="top-items">
-                        <a class="text-danger" href="mailto:abaacorp.com@gmail.com"><i class="margin-right-sm fa fa-envelope-o" aria-hidden="true"></i> abaacorp.com@gmail.com</a>
+                        <a class="text-light" href="mailto:abaacorp.com@gmail.com"><i class="margin-right-sm fa fa-envelope-o" aria-hidden="true"></i> abaacorp.com@gmail.com</a>
                     </div>
                     <div class="top-items">
-                        <a class="text-danger" href="mailto:1.214.736.5989"><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i>1.214.736.5989</a>
+                        <a class="text-light" href="mailto:1.214.736.5989"><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i>1.214.736.5989</a>
                     </div>
                 </div>
             </div>
@@ -51,10 +51,11 @@
                 <div class="menu-main-menu-container">
                     <ul id="menu-main-menu" class="  ">
                         <li class="menu-item"><a href="about/index.html">About Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">About Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">About Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">About Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">About Us</a></li>
+                        <li class="menu-item"><a href="about/index.html">services</a></li>
+                        <li class="menu-item"><a href="about/index.html">Protfolio</a></li>
+                        <li class="menu-item"><a href="about/index.html">Blogs</a></li>
+                        <li class="menu-item"><a href="about/index.html">Why Us</a></li>
+                        <li class="menu-item"><a href="about/index.html">Contact Us</a></li>
 
                     </ul>
                 </div>
@@ -82,10 +83,6 @@
                      
                   </ul>-->
             </div>
-            <li class="usus">
-                <div class="textwidget custom-html-widget"><i class="fa fa-phone"></i> <a href="tel:+919811895677">
-                        (IN)&nbsp; +91 98118 95677</a></div>
-            </li>
         </nav>
     </header>
     <div class="wrapper">
