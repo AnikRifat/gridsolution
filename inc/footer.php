@@ -79,7 +79,7 @@
  </footer>
  <!----------------------------footer-section-ends---------------------------------------->
 
- 
+
 
  </div>
  <!----------------------------Modal-box-portfolio-------------------------------------------------->
@@ -111,6 +111,26 @@
 
  </script>
  <script type="text/javascript">
+     // <!-----------Aos-------------->
+     AOS.init();
+
+     // <!-----------Aos-------------->
+
+     // <!-----------WOW-------------->
+
+     new WOW().init();
+
+     // <!-----------WOW-------------->
+     $(document).ready(function() {
+         $(".menu-click").on("click", function() {
+             //  console.log('ok');
+             $("#menu-main-menu").toggleClass("showing")
+         })
+     }), $(window).on("scroll", function() {
+         $(window).scrollTop() ? $("nav").addClass("black") : $("nav").removeClass("black")
+     });
+
+
      // When the user scrolls the page, execute myFunction
      window.onscroll = function() {
          myFunction()
@@ -155,7 +175,7 @@
          $(this).addClass("active");
 
      });
-     W
+
      if ($(window).width() < 767) {
          $('.dropdown').on('click', function(e) {
              $(this).children('.sub-menu').slideToggle('slow');

@@ -23,6 +23,10 @@ a {
 
 }
 
+nav#navbar.black.sticky ul li a {
+    color: #fff;
+}
+
 .text-blue {
     color: #0253a0;
 }
@@ -40,7 +44,9 @@ a {
     display: flex;
     justify-content: space-around;
 }
-
+.top-items {
+    margin: 0rem 3rem;
+}
 .top-items i.fa {
     margin-right: 1rem;
 }
@@ -573,7 +579,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000
+    background: #000000;
 }
 
 nav ul li .fa-phone {
@@ -604,14 +610,14 @@ nav ul li a {
 }
 
 .menu-icon {
-    line-height: 60px;
+    line-height: 3rem;
     width: 100%;
-    background: #000;
+    background: #ffffff;
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
     cursor: pointer;
-    color: #fff;
+    color: #555;
     display: none
 }
 
@@ -1726,7 +1732,7 @@ footer#footer {
     /* background: url(../images/footer.png) no-repeat center #000; */
     background-size: cover;
     padding: 3em 0 0 0;
-    background: #48325c;
+    background: #333;
 }
 
 .footer-content h5 {
@@ -4225,9 +4231,9 @@ li.row_style_1.align_centers:after {
 
 @media(max-width:786px) {
     .logo {
-        position: fixed;
-        top: 0;
-        margin-top: 16px
+        /* position: fixed; */
+        /* top: 0; */
+        /* margin-top: 3rem; */
     }
 
     nav ul {
@@ -4558,9 +4564,14 @@ li.row_style_1.align_centers:after {
     }
 
     .banner-text .h3 {
-        font-size: 30px;
+        font-size: 1.7rem;
         color: #fff;
         font-weight: 700
+    }
+
+    .banner-text h4 {
+        font-size: 1.5rem;
+
     }
 
     .banner-text {
@@ -4957,7 +4968,7 @@ contactus-one .contact-form .form-control {
     height: 50px;
 }
 
-.contact-form .btn:hover {
+.btn.normal-btn:hover {
     color: #fff;
     background: #f29957;
     /* border: 2px solid #ae262b; */
@@ -5021,7 +5032,7 @@ section#contactus {
 }
 
 .footer-content h3 {
-    color: #fff;
+    color: #ffffff;
     font-size: 1.2rem;
     line-height: .85rem;
 }
@@ -5032,7 +5043,7 @@ section#contactus {
 }
 
 .social-links {
-    color: white;
+    color: #ffffff;
     font-size: 3rem;
     display: flex;
     align-items: center;

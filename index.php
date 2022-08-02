@@ -155,7 +155,7 @@
                     <a href="services/web-designing/index.html">
                         <img src="assets/images/service/uxui.png" alt="Map">
                         <h2>UI/UX Design</h2>
-                        <p class="">UX/UI is important because it tries to fulfill the user's needs. We aims to provide positive experiences that keep users loyal to the product or brand. Additionally, a meaningful user experience allows you to define customer journeys on your website that are most conducive to business success.</p>
+                        <p class="">We aims to provide positive experiences that keep users loyal to the product or brand that allows you to define customer journeys on your website that are most conducive to business success.</p>
                     </a>
                 </div>
             </div>
@@ -493,36 +493,65 @@
         </div>
     </div>
 </div>
-<section class="blogs" id="blogs">
-    <div class="blogs-item owl-carousel owl-theme">
-        <div class="item">
-            <div class="row">
+
+<!-- blog-section -->
+<!-- <section class="blogs" id="blogs">
+    <div class="blogs-items container">
+        <h1 class="text-center text-blue">Blogs</h1>
+        <div class="row">
+            <div class="blog-content">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" data-aos="fade-right">
+                    <div class="row">
+                        <div class="col-lg-6 col-xs-12">
+                            <img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" width="100%">
+                        </div>
 
-                    <div class="col-lg-6 col-xs-12">
-                        <img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" width="100%">
-                    </div>
-
-                    <div class="col-lg-6 col-xs-12">
-                        <div class="blog-column">
-                            <span>Post Title</span>
-                            <ul class="blog-detail list-inline">
-                                <li><i class="fa fa-user"></i>John Doe</li>
-                                <li><i class="fa fa-clock-o"></i>March 01, 2017</li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                            <a href="#">Read More</a>
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="blog-column">
+                                <span>Post Title</span>
+                                <ul class="blog-detail list-inline">
+                                    <li><i class="fa fa-user"></i>John Doe</li>
+                                    <li><i class="fa fa-clock-o"></i>March 01, 2017</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                <a href="#">Read More</a>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="blog-content">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" data-aos="fade-right">
+                    <div class="row">
+                        <div class="col-lg-6 col-xs-12">
+                            <img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" width="100%">
+                        </div>
 
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="blog-column">
+                                <span>Post Title</span>
+                                <ul class="blog-detail list-inline">
+                                    <li><i class="fa fa-user"></i>John Doe</li>
+                                    <li><i class="fa fa-clock-o"></i>March 01, 2017</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <div class="text-center">
+            <a href="blogs.php" class="btn normal-btn dart-btn-xs">View More</a>
+        </div>
     </div>
-</section>
-<section class="contactus-one" id="contactus">
-    <!-- Section id-->
+</section> -->
+<!-- blog-section -->
+
+<!-- contact-panel -->
+<!-- <section class="contactus-one" id="contactus">
+
     <div class="container">
 
         <div class="row text-center">
@@ -536,7 +565,7 @@
                     </div>
 
                     <div class="contact-form">
-                        <!-- contact form -->
+    
                         <form class="row" action="send_email.php" id="contact" name="contact" method="post">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name" required>
@@ -561,7 +590,8 @@
 
         </div>
     </div>
-</section>
+</section> -->
+<!-- contact-panel -->
 
 
 </div>

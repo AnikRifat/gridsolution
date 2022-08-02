@@ -27,17 +27,6 @@ $('.gallery_product a.tag').css('display:block');
   });
 // <!-----------------------Scroll-Top----------------------------->
 
-// <!-----------Aos-------------->
-
-  AOS.init();
-
-// <!-----------Aos-------------->
-
-// <!-----------WOW-------------->
-
-  new WOW().init();
-
-// <!-----------WOW-------------->
 
 // <!-----------Fancybox-------------->
 
@@ -73,6 +62,4 @@ jQuery(document).ready(function () {
 
 
 
-
-$(document).ready(function () { $(".menu-icon").on("click", function () { $("nav ul").toggleClass("showing") }) }), $(window).on("scroll", function () { $(window).scrollTop() ? $("nav").addClass("black") : $("nav").removeClass("black") });
 

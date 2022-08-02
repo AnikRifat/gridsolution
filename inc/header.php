@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
-    
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" type="text/css">
 
@@ -40,16 +40,17 @@
         </div>
         <nav id="navbar">
 
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
-            </div>
+
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/uploads/2020/04/logo.png" alt="Custom Plan Seo Service"></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x menu-click"></i>
             </div>
             <div class="menu">
                 <div class="menu-main-menu-container">
-                    <ul id="menu-main-menu" class="  ">
+                    <ul id="menu-main-menu">
                         <li class="menu-item"><a href="#aboutus">About Us</a></li>
                         <li class="menu-item"><a href="#services">services</a></li>
                         <li class="menu-item"><a href="#protfolio">Protfolio</a></li>
