@@ -71,35 +71,7 @@ jQuery(document).ready(function () {
   });
 // <!-----------Counter--------------->
 
-// <!-----------owl caraousel--------------->
 
-jQuery(document).ready(function($) {
-  var owl = $('.owl-carousel');
-
-  $(".testimonials").owlCarousel({
-      item: 1,
-      autoplay: true,
-      autoplayTimeout: 2000,
-      autoplayHoverPause: true,
-      loop: true,
-      dots: true,
-      margin: 10,
-      nav: false,
-      responsive: {
-          320: {
-              items: 1
-          },
-          600: {
-              items: 1
-          },
-          1200: {
-              items: 1
-          }
-      }
-  });
-
-});
-// <!-----------owl caraousel--------------->
 
 
 $(document).ready(function () { $(".menu-icon").on("click", function () { $("nav ul").toggleClass("showing") }) }), $(window).on("scroll", function () { $(window).scrollTop() ? $("nav").addClass("black") : $("nav").removeClass("black") });

@@ -2,123 +2,84 @@
  <footer id="footer">
      <div class="container">
          <div class="row footer-content">
-             <div class="wow animated fadeInLeft">
-                 <div class="col-sm-3 address">
-                     <div class="textwidget custom-html-widget">
-                         <h5>Services</h5>
-                         <ul class="email-id">
-                             <li><a href="social-media-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> SMO</a></li>
-                             <li><a href="pay-per-click-management/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> PPC</a></li>
-                             <li><a href="services/web-designing/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Web Designing</a></li>
-                             <li><a href="services/web-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Web Developement</a></li>
-                             <li><a href="services/app-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> App Developement</a></li>
-                             <li><a href="search-engine-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> SEO</a></li>
-                         </ul>
-                         <p class="grandpasha">
-                             <a href="https://grandpasha.net/" title="grandpashabet">grandpashabet</a>
-                             <style type="text/css">
-                                 .grandpasha {
-                                     text-align: center;
-                                     display: table-column;
-                                 }
-                             </style>
-                         </p>
-                         -
-                         <p class="konya">
-                             <a href="https://konyalpgmontaj.com/" title="konya escort">konya escort</a>
-                             <style type="text/css">
-                                 .konya {
-                                     text-align: center;
-                                     display: table-column;
-                                 }
-                             </style>
-                         </p>
-                         -
-                         <p class="kayseri">
-                             <a href="http://kayseriotoyikama.com/" title="kayseri escort">kayseri escort</a>
-                             <style type="text/css">
-                                 .kayseri {
-                                     text-align: center;
-                                     display: table-column;
-                                 }
-                             </style>
-                         </p>
-                         -
-                         <p class="ankara-tekel">
-                             <a href="https://www.ankaratekel.com/" title="Ankara tekel">Ankara tekel</a>
-                             <style type="text/css">
-                                 .ankara-tekel {
-                                     text-align: center;
-                                     display: table-column;
-                                 }
-                             </style>
-                         </p>
+             <div class="col-md-3">
+                 <div class="wow animated fadeInLeft">
+                     <div class="footer-logo">
+                         <img src="assets/uploads/2020/04/logo.png" alt="">
+                     </div>
+                     <div class="card">
+                         <h3><i class="margin-right-sm fa fa-map-marker" aria-hidden="true"></i> 3653 Briargrove Ln, Dallas, TX 75287</h3>
+                         <h3><i class="margin-right-sm fa fa-envelope-o" aria-hidden="true"></i> support@abaacorp.com</h3>
+                         <h3><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i> USA +1-214-736-5989</h3>
+                         <h3><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i> BD +880 196 144 9755</h3>
+                         <h3><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i> AUSTRALIA +61 0423 687 453</h3>
+                         <h3><i class="margin-right-sm fa fa-phone" aria-hidden="true"></i> KENYA +254 (0)724 669 351</h3>
                      </div>
                  </div>
-             </div>
-             <div class="wow animated fadeInLeft">
-                 <div class="col-sm-3 address">
-                     <div class="textwidget custom-html-widget">
-                         <h5>Useful Links</h5>
-                         <ul class="email-id">
-                             <li><a href="services/product-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Product Management</a></li>
-                             <li><a href="services/hosting-maintenance/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Hosting</a></li>
-                             <li><a href="website-maintenance/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Website Maintenance</a></li>
-                             <li><a href="blog/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Blog</a></li>
-                             <li><a href="contact/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Contact
-                                     Us</a></li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-             <div class="wow animated fadeInRight">
-                 <div class="col-sm-3 call">
-                     <div class="textwidget custom-html-widget">
-                         <h5>Other Links</h5>
-                         <ul class="call-id">
-                             <li><a href="testimonials/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i>
-                                     Testimonials</a> </li>
-                             <li><a href="portfolio/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i>
-                                     Portfolio</a> </li>
-                             <li><a href="seo-articles/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Seo
-                                     Articles</a> </li>
-                             <li><a href="glossary/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i>
-                                     Glossary</a> </li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-             <div class="wow animated fadeInRight">
-                 <div class="col-sm-3 social">
-                     <div class="textwidget custom-html-widget">
-                         <h5>Follow us</h5>
-                         <ul class="icons">
-                             <li><a href="https://www.facebook.com/absolutewebranking" target="_blank" rel="noopener"><i class="fa fa-facebook" style="font-size:24px"></i></a></li>
-                             <li><a href="https://twitter.com/absolutewebrank" target="_blank" rel="noopener"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
 
-                             <li><a href="https://www.linkedin.com/in/gaurav-tayal-53233136/" target="_blank" rel="noopener"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
-                             <li><a href="http://www.apsense.com/brand/AbsoluteRanking" target="_blank" rel="noopener"><img src="assets/uploads/2020/04/apsense.png" alt="apsense" style="padding-bottom: 7px;"></a>
-                             </li>
 
-                         </ul>
+             </div>
+             <div class="col-md-6">
+                 <!-- <h5 class="text-center">services</h5> -->
+                 <div class="row">
+                     <div class="wow animated fadeInLeft">
+                         <div class="col-md-6 col-12 address">
+                             <div class="textwidget custom-html-widget">
+
+                                 <ul class="email-id">
+                                     <li><a href="social-media-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Software system & Development</a></li>
+                                     <li><a href="pay-per-click-management/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> App Development</a></li>
+                                     <li><a href="services/web-designing/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Website Design & Development</a></li>
+                                     <li><a href="services/web-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Domain & Hosting</a></li>
+                                     <li><a href="services/app-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> BPO Support</a></li>
+                                     <li><a href="search-engine-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Online Marketing</a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="wow animated fadeInLeft">
+                         <div class="col-md-6 col-12 address">
+                             <div class="textwidget custom-html-widget">
+
+                                 <ul class="email-id">
+                                     <li><a href="social-media-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Content Development</a></li>
+                                     <li><a href="pay-per-click-management/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Graphic Design</a></li>
+                                     <li><a href="services/web-designing/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> UI/UX Design</a></li>
+                                     <li><a href="services/web-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Social Media Management</a></li>
+                                     <li><a href="services/app-development/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> Market Research</a></li>
+                                     <li><a href="search-engine-optimization/index.html"><i class="fa fa-angle-right" style="font-size:18px"></i> White Label Agency Solution</a></li>
+                                 </ul>
+                             </div>
+                         </div>
                      </div>
                  </div>
              </div>
+             <div class="col-md-3">
+                 <div class="map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.3698641212954!2d-96.85533868504486!3d32.994022980196334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c241711c248ef%3A0xcffe08921cc6c55!2zMzY1MyBCcmlhcmdyb3ZlIExuLCBEYWxsYXMsIFRYIDc1Mjg3LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1659416569133!5m2!1sbn!2sbd" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+                 <div class="social-links">
+                     <div class="social-item">
+                         <a href="https://facebook.com/Abaacorp" target="_blank">
+                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                         </a>
+                     </div>
+                     <div class="social-item">
+                         <a href="https://twitter.com/abaacorp" target="_blank">
+                             <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                         </a>
+
+                     </div>
+                 </div>
+             </div>
+
+
          </div>
      </div>
  </footer>
  <!----------------------------footer-section-ends---------------------------------------->
 
- <!--------------------------------copyright---------------------------------------------->
- <div class="copyright text-center">
-     <div class="container">
-         <div class="textwidget">
-             <p>Copyright © 2022 <a href="index.html" target="_blank" rel="noopener">www.absoluteranking.com </a>. All
-                 Right Reserved.</p>
-         </div>
-     </div>
- </div>
- <!--------------------------------copyright-ends----------------------------------------->
+ 
 
  </div>
  <!----------------------------Modal-box-portfolio-------------------------------------------------->

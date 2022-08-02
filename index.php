@@ -9,8 +9,10 @@
         <img class="img-fluid" src="assets/uploads/2019/12/home3_01.jpg" alt="SEO Packages for Small Business">
         <div class="container">
             <div class="banner-text">
-                <div class="wow fadeInDown h1" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInDown;" data-wow-duration="1s" data-wow-delay="1s">Get More Sales,</div>
-                <div class="wow fadeInDown h2" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInDown;" data-wow-duration="1.2s" data-wow-delay="1.2s">Leads, and Branding</div>
+                <div class="wow fadeInDown h3" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInDown;" data-wow-duration="1s" data-wow-delay="1s">Thinking of getting a website or software?,</div>
+                <div class="wow fadeInDown" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInDown;" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                    <h4>Think no other but Abaacorp. <br> The best that there is!</h4>
+                </div>
 
             </div>
         </div>
@@ -51,7 +53,7 @@
         </div>
     </div>
 </div>
-<div class="section beauti">
+<div class="section beauti" id="aboutus">
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-sm-12 aos-init aos-animate" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -72,9 +74,9 @@
         </div>
     </div>
 </div>
-<div class="section services">
+<div class="section services" id="services">
     <div class="container ser">
-        <h1 class="text-center">Our Services</h1>
+        <h1 class="text-center text-blue">Our Services</h1>
         <div class="row serv">
             <div class="col-md-4 col-sm-12 text-center">
                 <div class="absrank">
@@ -142,19 +144,54 @@
             <div class="col-md-4 col-sm-12 text-center">
                 <div class="absrank">
                     <a href="services/web-designing/index.html">
-                        <img src="assets/images/service/graphic-design-e1559027811441.png" alt="Map">
-                        <h2>Graphic Design & 3D Rendering</h2>
+                        <img src="assets/images/service/graphic-design.png" alt="Map">
+                        <h2>Graphic Design</h2>
                         <p class="">For striking designs be it for your website or for print or for 3D rendering, we have the talented professionals with an inexpensive rate.</p>
                     </a>
                 </div>
             </div>
-
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="absrank">
+                    <a href="services/web-designing/index.html">
+                        <img src="assets/images/service/uxui.png" alt="Map">
+                        <h2>UI/UX Design</h2>
+                        <p class="">UX/UI is important because it tries to fulfill the user's needs. We aims to provide positive experiences that keep users loyal to the product or brand. Additionally, a meaningful user experience allows you to define customer journeys on your website that are most conducive to business success.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="absrank">
+                    <a href="services/web-designing/index.html">
+                        <img src="assets/images/service/socialmedia.png" alt="Map">
+                        <h2>Social Media Management</h2>
+                        <p class="">Our Team allows you to have a smooth and a working plan as to how you are going to post, respond to followers and fans and take the information that they interactions provide so that you can use it to make your business better</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="absrank">
+                    <a href="services/web-designing/index.html">
+                        <img src="assets/images/service/market-research.png" alt="Map">
+                        <h2>Market Research</h2>
+                        <p class="">Market research provides critical information about your market and your business landscape. We can tell you how your company is perceived by the target customers and clients you want to reach.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <div class="absrank">
+                    <a href="services/web-designing/index.html">
+                        <img src="assets/images/service/white-lebel.png" alt="Map">
+                        <h2>White Label Agency Solution</h2>
+                        <p class="">We provide unparalleled experience developing, testing, and updating their platform. when you are white label you will get access to the experience and expertise of the team behind that white label</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="section port">
+<div class="section port" id="protfolio">
     <div class="container ports">
-        <h1>Website/App Portfolio</h1>
+        <h1 class="text-center">Website/App Portfolio</h1>
         <div class="row por">
             <div class="col-sm-12 col-md-4 aos-init aos-animate" data-aos="zoom-in-up">
                 <div class="card">
@@ -227,19 +264,68 @@
         </div>
         <div class="clearfix"></div>
 
+    </div>
+</div>
+<div class="section why-choose-us" id="whyus">
+    <h1 class="text-center text-blue">Why Choose us ?</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xs-12 text-center">
+                <div class="box">
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                    <div class="box-title">
+                        <h3>WHY ABAACORP </h3>
+                    </div>
+                    <div class="box-text">
+                        <span>Abaacorp makes technology easy for you.
+                            Abaacorp designs and develops attractive, clean, crisp, easy to navigate/user-friendly and search engine friendly static and dynamic websites at low cost to you. We have reliable solution for all your web needs, content management and IT/ITES needs. Abaacorp sets up payment processing system in your ecommerce website that enables you to process orders and receive payments from customers around the world.
+                            Abaacorp delivers the best quality printing supplies at a low cost for your business. As your technology partner, your web matters are our concern so you can focus on your core business.</span>
+                    </div>
+                </div>
+            </div>
 
-        <div class="col-sm-12 text-center aos-init aos-animate" data-aos="zoom-in-up">
-            <a href="https://www.tbsinfotech.com/portfolio/" class="btn btn-default">View All Project</a>
+            <div class="col-lg-4 col-xs-12  text-center">
+                <div class="box">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <div class="box-title">
+                        <h3>Is your website Responsive?</h3>
+                    </div>
+                    <div class="box-text">
+                        <span>There are over 555 million websites on the Internet; over 3 Billion online searches per day. Online browsing is being revolutionized. By next year, the majority of browsing will be done on a mobile device – smart phone or tablet.
+                            So it is very important that your website is ‘responsive’, that way it can display on the mobile devices properly. Rely undoubtedly on Abaacorp.com experts for your responsive website design and development.
+                            How can U tell if a website is responsive? What is Responsive Design?</span>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-12 text-center">
+                <div class="box">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <div class="box-title">
+                        <h3>Online Marketing</h3>
+                    </div>
+                    <div class="box-text">
+                        <span>There are over 555 million websites on the Internet; over 3 Billion online searches per day.
+                            Is your website being found online or is your competitor’s website being found first? At the core of any successful web strategy is a strong web identity; a professional and search-engine-optimized website.
+                            At ABAACORP, we don’t “just build websites”. We create a brand, an online identity to attract, keep and convert visitors into sales.</span>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 </div>
-<div class="section why-choose-us">
-    <h2 class="text-center">Why Choose us ?</h2>
-    
-</div>
 <div class="section test">
     <div class="container content">
-        <h1>Testimonials</h1>
+        <h1 class="text-center">Testimonials</h1>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -407,60 +493,75 @@
         </div>
     </div>
 </div>
-<div class="section phone">
-    <div class="container phones">
-        <div class="column aos-init aos-animate" data-aos="flip-down">
+<section class="blogs" id="blogs">
+    <div class="blogs-item owl-carousel owl-theme">
+        <div class="item">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" data-aos="fade-right">
 
-            <div class="textwidget custom-html-widget">
-                <div class="card">
-                    <div>
-                        <span class="icon"><img src="assets/uploads/2019/12/home3_11.png" alt="Top SEO Consultant India"></span>
+                    <div class="col-lg-6 col-xs-12">
+                        <img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" width="100%">
                     </div>
-                    <div><span class="phn">
-                            <strong>Phone</strong><br>
-                            <a href="tel:+911204224319">+91 120 422 4319</a><br>
-                            <a href="tel:+919811895677">+91 98118 95677</a>
-                            <!--<a href="tel:1281 957 5363">+1281 957 5363</a>-->
-                        </span>
+
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="blog-column">
+                            <span>Post Title</span>
+                            <ul class="blog-detail list-inline">
+                                <li><i class="fa fa-user"></i>John Doe</li>
+                                <li><i class="fa fa-clock-o"></i>March 01, 2017</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            <a href="#">Read More</a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
-        <div class="column col-offset-1 aos-init aos-animate" data-aos="flip-down">
 
-            <div class="textwidget custom-html-widget">
-                <div class="card">
-                    <div>
-                        <span class="icon"><img src="assets/uploads/2019/12/home3_14.jpg" alt="Best SEO Consultant"></span>
+    </div>
+</section>
+<section class="contactus-one" id="contactus">
+    <!-- Section id-->
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class=" col-md-2"></div>
+            <div class=" col-md-8 col-12">
+                <div class="contact-block">
+                    <div class="dart-headingstyle-one dart-mb-20">
+                        <h2 class="text-center text-blue">Contact US</h2>
+
                     </div>
-                    <div> <span class="mail">
-                            <strong>Email</strong><br>
-                            <a href="mailto:info@absoluteranking.com"> info@absoluteranking.com</a>
-                        </span>
+
+                    <div class="contact-form">
+                        <!-- contact form -->
+                        <form class="row" action="send_email.php" id="contact" name="contact" method="post">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Web Site (Optional)">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button name="submit" type="submit" class="btn normal-btn dart-btn-xs">SEND MESSAGE</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="column aos-init aos-animate" data-aos="flip-down">
+            <div class=" col-md-2"></div>
 
-            <div class="textwidget custom-html-widget">
-                <div class="card">
-                    <div>
-                        <span class="icon"><img src="assets/uploads/2019/12/home3_08.png" alt="address"></span>
-                    </div>
-                    <div> <span class="address">
-                            <strong>Address</strong><br>
-                            <a href="#">B-144, Top Floor,
-                                <br />
-                                Sector-10, Noida - 201301
-                                <br>New Delhi (NCR), India</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</div>
+</section>
 
 
 </div>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/js/owlcarousel/owl.carousel.css">
+    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" type="text/css">
 
@@ -50,12 +50,12 @@
             <div class="menu">
                 <div class="menu-main-menu-container">
                     <ul id="menu-main-menu" class="  ">
-                        <li class="menu-item"><a href="about/index.html">About Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">services</a></li>
-                        <li class="menu-item"><a href="about/index.html">Protfolio</a></li>
-                        <li class="menu-item"><a href="about/index.html">Blogs</a></li>
-                        <li class="menu-item"><a href="about/index.html">Why Us</a></li>
-                        <li class="menu-item"><a href="about/index.html">Contact Us</a></li>
+                        <li class="menu-item"><a href="#aboutus">About Us</a></li>
+                        <li class="menu-item"><a href="#services">services</a></li>
+                        <li class="menu-item"><a href="#protfolio">Protfolio</a></li>
+                        <li class="menu-item"><a href="#whyus">Why Us</a></li>
+                        <li class="menu-item"><a href="#blogs">Blogs</a></li>
+                        <li class="menu-item"><a href="#contactus">Contact Us</a></li>
 
                     </ul>
                 </div>

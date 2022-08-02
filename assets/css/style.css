@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%
 }
@@ -15,6 +21,10 @@ a {
     width: 100%;
     /* overflow: hidden; */
 
+}
+
+.text-blue {
+    color: #0253a0;
 }
 
 .logo img {
@@ -42,7 +52,7 @@ a {
 .sticky {
     position: fixed;
     top: 0;
-
+    border-bottom: 4px solid #ae262b;
 }
 
 .nav>li>a:hover,
@@ -85,7 +95,7 @@ a {
 
 body {
     background: #fff;
-    font-family: Lato, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     width: 100%;
     margin: 0 auto;
     overflow-x: hidden !important
@@ -369,6 +379,11 @@ nav {
     z-index: 1000
 }
 
+.banner-text h4 {
+    font-size: 3rem;
+    color: #b3272a;
+}
+
 .banner-text .ban::before {
     width: 42px;
     height: 42px;
@@ -574,16 +589,18 @@ nav ul li {
 
 nav ul li a:hover,
 nav ul li.active a {
-    background: #202124;
+    background: #bc2529;
     padding: 1rem;
     border-radius: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #202124;
+    color: #777;
     font-size: 16px;
-    padding: 10px
+    font-weight: 800;
+    padding: 10px;
+    transition: .4s;
 }
 
 .menu-icon {
@@ -755,7 +772,7 @@ nav ul li a {
 }
 
 .beauti {
-    /* background: url(../images/home2.png) no-repeat center #000; */
+    background: url(../images/home3_07.png) no-repeat center #000;
     background-size: cover;
     height: 550px
 }
@@ -934,8 +951,17 @@ nav ul li a {
 }
 
 .port {
-    background: url(../images/home5.jpg);
-    padding: 4rem 0
+    /* background: url(../images/home5.jpg); */
+    padding: 4rem 0;
+}
+
+.row.por {
+    margin: 0rem rem;
+    margin-top: 5rem;
+}
+
+.container.ports h1 {
+    color: #0253a0;
 }
 
 .por .col-md-4 {
@@ -994,7 +1020,8 @@ nav ul li a {
 }
 
 .por img:hover {
-    box-shadow: 0 0 55px 0 rgba(0, 0, 0, .31) !important
+    box-shadow: 0 0 55px 0 rgb(249 249 250) !important;
+    transition: .3s;
 }
 
 .ports a.btn-default:hover {
@@ -1262,8 +1289,13 @@ h3.counter-count {
 }
 
 .test {
-    background-color: #0e62a5;
-    padding: 4rem 0
+    background-color: #b7262b;
+    padding: 4rem 0;
+    height: 30rem;
+}
+
+.section.test h1 {
+    color: white;
 }
 
 .test h2 {
@@ -1343,11 +1375,11 @@ h3.counter-count {
 }
 
 .round p b {
-    font-size: 18px
+    font-size: 18px;
 }
 
 .checked {
-    color: orange
+    color: white;
 }
 
 .thumbnail .caption {
@@ -1545,6 +1577,7 @@ h3.counter-count {
     padding: 15px 15px 0 15px
 }
 
+
 .dialog-box {
     background: #fff;
     width: 100%;
@@ -1658,7 +1691,6 @@ h3.counter-count {
 }
 
 .phone {
-    background: url(../images/home3_07.png) no-repeat center #000;
     background-size: cover;
     padding: 8rem 0
 }
@@ -1691,9 +1723,10 @@ h3.counter-count {
 }
 
 footer#footer {
-    background: url(../images/footer.png) no-repeat center #000;
+    /* background: url(../images/footer.png) no-repeat center #000; */
     background-size: cover;
-    padding: 3em 0 0 0
+    padding: 3em 0 0 0;
+    background: #48325c;
 }
 
 .footer-content h5 {
@@ -4872,4 +4905,136 @@ li .first {
 
 .mb-5 {
     margin-bottom: 25px;
+}
+
+
+.section.why-choose-us .box {
+    /* box-shadow: 0px 0px 1px 0px rgb(14 95 163); */
+    border-radius: 7px;
+    padding: 2rem;
+    /* height: 50rem; */
+}
+
+.section.why-choose-us .box h3 {
+    color: #f19957;
+    font-size: 2rem;
+}
+
+.section.why-choose-us .box-text {
+    color: #555;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.section.why-choose-us {
+    margin: 3rem 0rem;
+}
+
+.section.why-choose-us .box .box-title {
+    margin: 3rem 0rem;
+    border-bottom: 3px solid #f19977;
+    /* color: #b92529 !important; */
+}
+
+.section.why-choose-us .box .fa {
+    color: #f19977;
+    padding: 1rem;
+    height: 5rem;
+    width: 5rem;
+    border: 3px solid #f19977;
+    border-radius: 50px;
+    font-size: 2.5rem;
+}
+
+contactus-one .contact-form .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #fff;
+    height: 50px;
+}
+
+.contact-form .btn:hover {
+    color: #fff;
+    background: #f29957;
+    /* border: 2px solid #ae262b; */
+}
+
+.contactus-one .contact-form .form-control {
+    border-bottom: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.contact-info>div>p {
+    margin-bottom: 10px;
+}
+
+.contactus-one .contact-info p i {
+    margin-right: 15px;
+    color: #b5262a;
+}
+
+.map iframe {
+    pointer-events: none;
+    width: 100%;
+    border: none;
+}
+
+
+
+.map iframe {
+    pointer-events: none;
+    width: 100%;
+    border: none;
+}
+
+.contactus-one .dart-headingstyle-one .dart-heading:after {
+    left: 15px;
+}
+
+.contact-box .card h5 {
+    color: #555;
+}
+
+.contact-box .card .fa {
+    color: #b92529 !important;
+    font-size: 2rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+}
+
+.normal-btn {
+    background: #b92529 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section#contactus {
+    margin: 3rem 0rem;
+}
+
+.footer-content h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: .85rem;
+}
+
+
+.footer-logo img {
+    height: 8rem;
+}
+
+.social-links {
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
